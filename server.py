@@ -10,8 +10,8 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 # --- Konfigurasi Environment ---
 PORT = int(os.getenv("PORT", "8080"))
 BOT_TOKEN = os.getenv("9267118980:AAHAynWeSABP2EiEijQZsCwKsffvgqr2Dzc", "").strip()
-CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "").strip()
-SYNC_TOKEN = os.getenv("SYNC_TOKEN", "").strip()
+CHAT_ID = os.getenv("5884268791", "").strip()
+SYNC_TOKEN = os.getenv("0a0a1e0238b44ccba992e526f4e4de235cfbbb0ae82e97f1", "").strip()
 MONITOR_MODE = os.getenv("MONITOR_MODE", "monitor").strip().lower()
 NOTIFY_MODE = os.getenv("NOTIFY_MODE", "both").strip().lower()
 SUMMARY_INTERVAL = int(os.getenv("SUMMARY_INTERVAL_SEC", "900"))
